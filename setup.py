@@ -1,0 +1,24 @@
+from setuptools import setup
+
+setup(
+    name='miniGame',
+    version='0.1.0',
+    author='Linkun Wan',
+    author_email='lw2861@nyu.edu',
+    description='Some mini-games using Pygame',
+    long_description=open('README.md').read(),
+    install_requires=[
+        "pygame>=2.5.2",
+    ],
+    entry_points={
+        'console_scripts': [
+            'minigame = src.minigame:main',
+        ],
+    },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6',
+)
