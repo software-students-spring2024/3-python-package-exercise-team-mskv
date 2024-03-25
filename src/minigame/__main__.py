@@ -1,8 +1,28 @@
 import count as countgame
+import rock_paper_scissor as rpsgame
 
 def main():
-    print("Welcome to Count Game!")
-    countgame.run_count_game()
+    # offer choice for the user 
+    print("Welcome to Game Selection!")
+    print("Which game would you like to play?")
+    print("1. Space Invaders")
+    print("2. Count Game")
+    print("3. Rock paper Scissors")
+    choice = input("Enter the number of the game you want to play: ")
+
+    # depending on selection --> present certain game 
+    if choice == "1":
+        print("Welcome to Space Invaders Game!")
+        '''spacegame.run_space_game()'''
+    elif choice == "2":
+        print("Welcome to Count Game!")
+        countgame.run_count_game()
+    elif choice == "3":
+        print("Welcome to Rock Paper Scissors!")
+        rpsgame.run_rps_game()
+
+    else:
+        print("Invalid choice. Please enter either '1', '2', or '3'.")
 
 if __name__ == "__main__":
     main()
