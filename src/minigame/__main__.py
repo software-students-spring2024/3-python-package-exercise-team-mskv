@@ -1,4 +1,5 @@
 import count as countgame
+import space_invaders as spacegame
 import rock_paper_scissor as rpsgame
 
 def main():
@@ -13,14 +14,13 @@ def main():
     # depending on selection --> present certain game 
     if choice == "1":
         print("Welcome to Space Invaders Game!")
-        '''spacegame.run_space_game()'''
+        spacegame.run_space_game()
     elif choice == "2":
         print("Welcome to Count Game!")
         countgame.run_count_game()
     elif choice == "3":
         print("Welcome to Rock Paper Scissors!")
         rpsgame.run_rps_game()
-
     else:
         print("Invalid choice. Please enter either '1', '2', or '3'.")
 
