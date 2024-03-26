@@ -1,8 +1,3 @@
-import count as countgame
-import space_invaders as spacegame
-import rock_paper_scissor as rpsgame
-import tictactoe as tttgame
-
 def main():
     # offer choice for the user 
     print("Welcome to Game Selection!")
@@ -16,15 +11,19 @@ def main():
 
     # depending on selection --> present certain game 
     if choice == "1":
+        import space_invaders as spacegame
         print("Welcome to Space Invaders Game!")
         spacegame.run_space_game()
     elif choice == "2":
+        import count as countgame
         print("Welcome to Count Game!")
         countgame.run_count_game()
     elif choice == "3":
+        import rock_paper_scissor as rpsgame
         print("Welcome to Rock Paper Scissors!")
         rpsgame.run_rps_game()
     elif choice == "4":
+        import tictactoe as tttgame
         print("Welcome to Tic Tac Toe!")
         tttgame.run_tic_tac_toe()
     else:
