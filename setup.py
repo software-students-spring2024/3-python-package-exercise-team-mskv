@@ -3,8 +3,8 @@ from setuptools import setup
 setup(
     name='miniGame',
     version='0.1.0',
-    author='Linkun Wan, Vanessa Viglucci, Sara Gizabi',
-    author_email='lw2861@nyu.edu, vcv227@nyu.edu, sg7029@nyu.edu',
+    author='Linkun Wan, Vanessa Viglucci, Sara Gizabi, Marcus Du',
+    author_email='lw2861@nyu.edu, vcv227@nyu.edu, sg7029@nyu.edu, mrd9556@nyu.edu',
     description='Some mini-games using Pygame',
     long_description=open('README.md').read(),
     install_requires=[
