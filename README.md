@@ -35,3 +35,5 @@ We recommened using a virtual environment when handling this package, whether yo
 First ensure that pipenv is installed, then create a virtual environment by entering `pipenv shell`
 
 To install the package, enter `pipenv install -i https://pypi.org/project/mksv-miniGame==0.1.7`
+
+Then you can run the package from the command line: python3 -m minigame. This will run the code in the __main__.py file.
