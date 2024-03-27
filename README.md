@@ -2,7 +2,7 @@
 # Python Package Exercise
 [![Upload Python Package](https://github.com/software-students-spring2024/3-python-package-exercise-team-mskv/actions/workflows/python-publish.yml/badge.svg?branch=main&event=release)](https://github.com/software-students-spring2024/3-python-package-exercise-team-mskv/actions/workflows/python-publish.yml)
 
-[Link to package](https://pypi.org/project/mksv-miniGame/0.1.7)
+[Link to package](https://pypi.org/project/mksv-miniGame)
 
 ## Team Members
 
@@ -13,7 +13,7 @@
 
 
 
-## Package Rundown
+## Package Info
 
 This package is a set of 4 minigames that can be run from the main function or included individually in whatever code you choose.
 
@@ -26,6 +26,12 @@ from . import space_invaders as spacegame
 
 Otherwise, the game hub can be run from the command line by running the __main__.py file.
 
+
+## Working with the package
 Please feel free to clone this repository from github or install this package from Pypi. All links are at the top of the page. 
 
 We recommened using a virtual environment when handling this package, whether you are contributing or simply making use of the minigames.
+
+First ensure that pipenv is installed, then create a virtual environment by entering `pipenv shell`
+
+To install the package, enter `pipenv install -i https://pypi.org/project/mksv-miniGame==0.1.7`
