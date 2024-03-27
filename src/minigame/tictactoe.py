@@ -1,5 +1,8 @@
 import pygame
+from pathlib import Path
 import sys
+
+current_dir = Path(__file__).parent
 
 
 pygame.init()
@@ -10,9 +13,12 @@ BACKGROUND_COLOR = (255, 255, 255)
 LINE_COLOR = (0, 0, 0)
 
 
-ttt_o = pygame.image.load("src/minigame/ttt_o.png")
+ttt_o_path = current_dir / 'ttt_o.png'
+ttt_x_path = current_dir / 'ttt_x.png'
+
+ttt_o = pygame.image.load(str(ttt_o_path))
 ttt_o = pygame.transform.scale(ttt_o, (200, 200))
-ttt_x = pygame.image.load("src/minigame/ttt_x.png")
+ttt_x = pygame.image.load(str(ttt_x_path))
 ttt_x = pygame.transform.scale(ttt_x, (200, 200))
 
 
