@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='miniGame',
+    name='mksv_miniGame',
     version='0.1.0',
     author='Linkun Wan, Vanessa Viglucci, Sara Gizabi, Marcus Du',
     author_email='lw2861@nyu.edu, vcv227@nyu.edu, sg7029@nyu.edu, mrd9556@nyu.edu',
@@ -12,7 +12,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'minigame = src.minigame:main',
+            'mksv_miniGame = src.minigame:main',
         ],
     },
     classifiers=[
